@@ -86,7 +86,7 @@ function Advice() {
           <>
             <Header>{`ADVICE #${result.id}`}</Header>
             <AdviceText>{`"${result.advice}"`}</AdviceText>
-            <DividerImg  alt='divider image'/>
+            <DividerImg  alt='divider image' src={dividerPc}/>
             <Button
               onClick={() => {
                 fetchAdvice();
