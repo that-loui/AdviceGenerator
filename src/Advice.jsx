@@ -12,7 +12,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
-  padding: 2rem;
+  padding: 3rem;
   background-color: #313a49;
   border-radius: 10px;
   width: 90%;
@@ -24,7 +24,7 @@ const Container = styled.div`
 
 const Header = styled.small`
   color: #53ffab;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   letter-spacing: 3px;
   font-weight: 400;
 `;
@@ -40,6 +40,7 @@ const AdviceText = styled.h3`
 const DividerImg = styled.img`
   content: url(${dividerMobile});
   width: 100%;
+  margin-bottom: 2rem;
 
   @media (min-width: 768px) {
     content: url(${dividerPc});
